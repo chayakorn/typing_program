@@ -27,7 +27,7 @@ public class TypingProgram {
             switch (select) {
                 case 1:
 
-                    System.out.println("Select difficult\n 1.Easy\n 2.Medium\n 3.Hard");
+                    System.out.println("Select difficult\n 1.Easy\n 2.Medium\n 3.Hard\n\n\n\n4.back");
                     selectdifficult = input.nextInt();
                     switch (selectdifficult) {
                         case 1:
@@ -40,7 +40,8 @@ public class TypingProgram {
                             break;
                         case 3:
                             game.playWordHard();
-
+                            break;
+                        case 4:
                             break;
                     }
                     break;
