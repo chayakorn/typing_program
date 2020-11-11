@@ -27,7 +27,7 @@ public class History {
 
     @Override
     public String toString() {
-        return "Player" + name + "Score: " + points;
+        return "Player: " + name + " Score: " + points;
     }
     
     
